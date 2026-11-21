@@ -1,0 +1,61 @@
+site_name: FRC 2928 Onshape Design Guide
+site_description: How Team 2928 designs the robot in Onshape
+site_url: https://frc-2928.github.io/DesignGuide/
+repo_url: https://github.com/FRC-2928/DesignGuide
+repo_name: FRC-2928/DesignGuide
+edit_uri: edit/main/docs/
+
+theme:
+  name: material
+  features:
+    - navigation.sections
+    - navigation.top
+    - navigation.footer
+    - navigation.tracking
+    - toc.follow
+    - search.suggest
+    - content.code.copy
+  palette:
+    - scheme: default
+      primary: indigo
+      accent: amber
+      toggle:
+        icon: material/weather-night
+        name: Dark mode
+    - scheme: slate
+      primary: indigo
+      accent: amber
+      toggle:
+        icon: material/weather-sunny
+        name: Light mode
+
+nav:
+  - 1. Introduction: index.md
+  - 2. Getting Started: getting-started.md
+  - 3. Design Guidelines:
+      - Overview and merge checklist: rules/index.md
+      - "Rule 1: One Origin": rules/01-one-origin.md
+      - "Rule 2: Never Work in Main": rules/02-branching.md
+      - "Rule 3: Master Sketches": rules/03-master-sketches.md
+      - "Rule 4: High Fidelity Blocks": rules/04-block-cad.md
+      - "Rule 5: Functions, Not Typed Dimensions": rules/05-smart-dimensions.md
+      - "Rule 6: Real Materials": rules/06-materials.md
+  - Contributing: contributing.md
+
+markdown_extensions:
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
+  - pymdownx.tasklist:
+      custom_checkbox: true
+  - pymdownx.tabbed:
+      alternate_style: true
+  - attr_list
+  - md_in_html
+  - tables
+  - toc:
+      permalink: true
