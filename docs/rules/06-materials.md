@@ -50,32 +50,40 @@ Parts you insert from the FRC Design Library already have their correct masses a
 
 ### Walkthrough (Gearbox Plate example)
 
-Each clip below shows one step. Real screen-recorded videos will replace these as they are recorded (see [how to add a video](../videos/README.md)).
+Each video below shows one step, with the text underneath. These were made from captured frames, so they are a little choppy. A real screen recording with the same file name in `docs/videos/` replaces them (see the notes in `docs/videos/README.md`).
 
 #### Step 1: Find the new part in the Parts list
 
 It appears there as soon as it is created.
 
-![Parts list with the new part](../assets/rule6/step1.webp)
+<video controls muted loop playsinline preload="metadata" width="100%">
+  <source src="../../videos/rule6-step1.mp4" type="video/mp4">
+</video>
 
 #### Step 2: Right-click the part and choose Assign material
 
 !!! tip
     If the part already has a material, the menu says **Edit material** instead. It opens the same dialog.
 
-![Right-click menu with Assign material](../assets/rule6/step2.webp)
+<video controls muted loop playsinline preload="metadata" width="100%">
+  <source src="../../videos/rule6-step2.mp4" type="video/mp4">
+</video>
 
 #### Step 3: Pick the material from the library
 
 On the Library tab, search for 6061, pick **Aluminum - 6061**, then click the green check.
 
-![Material dialog with Aluminum - 6061 selected](../assets/rule6/step3.webp)
+<video controls muted loop playsinline preload="metadata" width="100%">
+  <source src="../../videos/rule6-step3.mp4" type="video/mp4">
+</video>
 
 #### Step 4: Check the mass in Mass properties
 
 Open **Mass properties** and click the part. It now shows a mass (0.046 lb here).
 
-![Mass and section properties panel](../assets/rule6/step4.webp)
+<video controls muted loop playsinline preload="metadata" width="100%">
+  <source src="../../videos/rule6-step4.mp4" type="video/mp4">
+</video>
 
 ### Common mistakes
 

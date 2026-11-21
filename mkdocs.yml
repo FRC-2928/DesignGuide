@@ -16,18 +16,18 @@ theme:
     - search.suggest
     - content.code.copy
   palette:
-    - scheme: default
-      primary: indigo
-      accent: amber
-      toggle:
-        icon: material/weather-night
-        name: Dark mode
     - scheme: slate
       primary: indigo
       accent: amber
       toggle:
         icon: material/weather-sunny
         name: Light mode
+    - scheme: default
+      primary: indigo
+      accent: amber
+      toggle:
+        icon: material/weather-night
+        name: Dark mode
 
 nav:
   - 1. Introduction: index.md
