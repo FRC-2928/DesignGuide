@@ -51,8 +51,6 @@ Values for the screws we use most, so you can sanity check a hole. You never typ
 
 See them in use in the [Origin Cube example document](https://cad.onshape.com/documents/321c197a842fc5f1a29e6621/w/fc3cdd5ca7edcd93e02f13cc/e/5abed6fb539ec4f242fdc565).
 
-- [ ] Mentor to fill in: the exact belt and chain function names (they live in a library that Origin Cube imports, not in the Origin Cube script itself) and a screenshot from the example document.
-- [ ] Mentor to check two things in Origin Cube: `CloseFit_M5` and `ClearanceFit_M5` are both 5.25 mm, and the M8.5 tap size is named `TapSize_M85`, with no `p`.
 
 ## Why
 

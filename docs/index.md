@@ -27,16 +27,16 @@ We keep them short on purpose. If a rule is unclear or something is missing, tel
 
 Start with the ones marked first. You do not need to read everything before you begin.
 
-| Resource | What it gives you | Start here? |
-|---|---|---|
-| [FRCDesign.org Learning Course](https://frcdesign.org/learning-course/) | A guided course from basic Onshape to modeling a full robot. | Yes, if you are new |
-| [High Fidelity Block CAD slides](https://docs.google.com/presentation/d/1xWj62HjiANdADNsP5ZN-zCswwD9ZUl7yibvG5EnrUBg/edit) (FRC 3005 RoboChargers) and [video](https://www.youtube.com/watch?v=GBdY-TMNkeI) | The design approach behind Rule 4. | Yes, before Rule 4 |
-| [FRCDesign.org FeatureScripts list](https://frcdesign.org/resources/featurescripts/) | Every community FeatureScript we use, with links to add them. | Yes, see [Getting Started](getting-started.md) |
-| [FRCDesignLib](https://frcdesign.org/resources/frcdesignlib/) | A shared library of FRC off-the-shelf parts, and a tool for quickly modeling robot architectures. | Reference |
-| [FRCDesign.org Practice Design Challenges](https://frcdesign.org/resources/design-challenges/) | Practice prompts for building design skill. | Optional |
-| [Origin Cube example document](https://cad.onshape.com/documents/321c197a842fc5f1a29e6621/w/fc3cdd5ca7edcd93e02f13cc/e/5abed6fb539ec4f242fdc565) | Shows the Origin Cube functions in use. Used in Rule 5. | Yes, before Rule 5 |
-| [Onshape branching and merging help](https://cad.onshape.com/help/Content/merge.htm) | The official explanation of the tools in Rule 2. | Reference |
-| [ReCalc](https://www.reca.lc) | Online calculators for FRC mechanisms such as gearing, belts and arms. | Reference |
+| Resource | What it gives you |
+|---|---|
+| [FRCDesign.org Learning Course](https://frcdesign.org/learning-course/) | A guided course from basic Onshape to modeling a full robot. |
+| [High Fidelity Block CAD slides](https://docs.google.com/presentation/d/1xWj62HjiANdADNsP5ZN-zCswwD9ZUl7yibvG5EnrUBg/edit) (FRC 3005 RoboChargers) and [video](https://www.youtube.com/watch?v=GBdY-TMNkeI) | The design approach behind Rule 4. |
+| [FRCDesign.org FeatureScripts list](https://frcdesign.org/resources/featurescripts/) | Every community FeatureScript we use, with links to add them. |
+| [FRCDesignLib](https://frcdesign.org/resources/frcdesignlib/) | A shared library of FRC off-the-shelf parts, and a tool for quickly modeling robot architectures. |
+| [FRCDesign.org Practice Design Challenges](https://frcdesign.org/resources/design-challenges/) | Practice prompts for building design skill. |
+| [Origin Cube example document](https://cad.onshape.com/documents/321c197a842fc5f1a29e6621/w/fc3cdd5ca7edcd93e02f13cc/e/5abed6fb539ec4f242fdc565) | Shows the Origin Cube functions in use. Used in Rule 5. |
+| [Onshape branching and merging help](https://cad.onshape.com/help/Content/merge.htm) | The official explanation of the tools in Rule 2. |
+| [ReCalc](https://www.reca.lc) | Online calculators for FRC mechanisms such as gearing, belts and arms. |
 
 ## Our 2026 robot as an example
 

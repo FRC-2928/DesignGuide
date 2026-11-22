@@ -7,6 +7,18 @@
 Every Onshape document has a default workspace called **Main**. A **branch** is your own copy of the document, where you can change things without touching anyone else's view. When you finish, you **merge** your branch back into Main.
 
 ```mermaid
+%%{init: {
+  "theme": "base",
+  "themeVariables": {
+    "git0": "#3f51b5", "gitBranchLabel0": "#ffffff",
+    "git1": "#c43e00", "gitBranchLabel1": "#ffffff",
+    "git2": "#00796b", "gitBranchLabel2": "#ffffff",
+    "commitLabelColor": "#111111",
+    "commitLabelBackground": "#f0f0f0",
+    "commitLabelFontSize": "13px"
+  },
+  "themeCSS": ".commit-label-bkg { opacity: 1 !important; } .commit-label, .branch-label0, .branch-label1, .branch-label2 { font-weight: 600; }"
+}}%%
 gitGraph
     commit id: "V12 Main"
     branch "Intake - wrist pivot"
@@ -23,11 +35,10 @@ gitGraph
 In practice:
 
 - You do not open Main to "just fix one thing." You make a branch first, even for small changes.
-- One branch is for **one job** (the "scope"), such as adding a wrist pivot to the intake. Do not mix unrelated changes in one branch.
+- One branch is for **one job** (the "scope"), such as adding a wrist pivot to the intake. Do not mix unrelated changes in one branch if possible.
 - A mentor or subsystem lead looks over the changes before they are merged.
 - Main always holds the last reviewed state of the document.
 
-- [ ] Mentor to fill in: who reviews each subsystem's merges, and how long a branch can stay open.
 
 ## Why
 
@@ -41,7 +52,7 @@ In practice:
 
 ### Name the branch well
 
-A branch name should tell a teammate, a month from now, what it was for. We use this pattern (proposed, mentors to confirm):
+A branch name should tell a teammate what it was for. We use this pattern:
 
 **Subsystem - what you are changing**
 
@@ -97,10 +108,6 @@ Use the description field for the details.
 !!! note "Screenshot to add"
     The merge window with Compare with base visible.
 
-### Afterward
-
-- Leave the branch alone until a mentor confirms it can be removed. History is preserved either way.
-- Ask a mentor about turning on Onshape's **workspace protections** for Main. They can stop direct edits to Main, so this rule is enforced by the software instead of by memory.
 
 ### Common mistakes
 

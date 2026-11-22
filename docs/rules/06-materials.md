@@ -33,15 +33,13 @@ Parts you insert from the FRC Design Library already have their correct masses a
 - **We find weight problems early.** The robot has a weight limit in the game manual. If every part has a real material, the running total is trustworthy all season, and we can fix an overweight design while it is still easy.
 - **Center of mass matters.** A robot with a high or off-center center of mass tips and drives differently.
 - **It is easy now and hard later.** Assigning a material takes seconds when you know what the part is. Doing 300 parts at the end means guessing, and some parts will get missed.
-- **The bill of materials is right.** Materials also show up in assembly BOMs, so the same step helps ordering and machining.
 
 ## How
 
 1. **Make the part.** As soon as an extrude or other feature creates a new part, move on to the next step before you do anything else.
 2. **Right-click the part and choose Assign material.** Right-click it in the Parts list or in the graphics area. Select several parts first if they share a material.
 3. **Pick from the library.** On the Library tab, choose a material library (the Onshape Material Library shows by default), then choose the material. Each material shows its density. Click the checkmark. For most machined parts, choose 6061 aluminum.
-4. **For plastics, use the team's materials.** Pick PLA, Nylon, TPU or polycarbonate from our team material library once a mentor has set it up. If it is not there yet, use the **Custom** tab, type the material name and the density from our datasheet, and tell a mentor so it can be added. Always use the same names so parts are consistent.
-5. **For 3D-printed parts, account for infill.** A printed part is not solid, so volume times plastic density overestimates the mass. Do one of these:
+4. **For 3D-printed parts, account for infill.** A printed part is not solid, so volume times plastic density overestimates the mass. Do one of these:
     - Use the **3D Printed Mass** FeatureScript (see [Getting Started](../getting-started.md)). It adjusts a printed part to a realistic mass from its material, infill and wall thickness.
     - Or take the mass from the slicer, open the **Mass properties** tool, select the part, check **Override**, and type the mass.
 6. **Do it in bulk when you can.** Select a group of parts and assign once, or use the **Set Materials** FeatureScript to set materials and appearances for many parts at once.
