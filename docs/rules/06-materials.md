@@ -42,46 +42,31 @@ Parts you insert from the FRC Design Library already have their correct masses a
 4. **For 3D-printed parts, account for infill.** A printed part is not solid, so volume times plastic density overestimates the mass. Do one of these:
     - Use the **3D Printed Mass** FeatureScript (see [Getting Started](../getting-started.md)). It adjusts a printed part to a realistic mass from its material, infill and wall thickness.
     - Or take the mass from the slicer, open the **Mass properties** tool, select the part, check **Override**, and type the mass.
-6. **Do it in bulk when you can.** Select a group of parts and assign once, or use the **Set Materials** FeatureScript to set materials and appearances for many parts at once.
-7. **Check it.** Click the **Mass properties** icon in the bottom-right of the Part Studio or Assembly, select the **Part** tab, and click your parts. Every part should show a mass. If the tool shows nothing for a part, it has no material. In the assembly, check the robot's total mass and center of mass.
-8. **Leave FRC Design Library parts alone.** They arrive with correct masses. Do not reassign them.
+5. **Do it in bulk when you can.** Select a group of parts and assign once, or use the **Set Materials** FeatureScript to set materials and appearances for many parts at once.
+6. **Check it.** Click the **Mass properties** icon in the bottom-right of the Part Studio or Assembly, select the **Part** tab, and click your parts. Every part should show a mass. If the tool shows nothing for a part, it has no material. In the assembly, check the robot's total mass and center of mass.
+7. **Leave FRC Design Library parts alone.** They arrive with correct masses. Do not reassign them.
 
 ### Walkthrough (Gearbox Plate example)
 
-Each video below shows one step, with the text underneath. These were made from captured frames, so they are a little choppy. A real screen recording with the same file name in `docs/videos/` replaces them (see the notes in `docs/videos/README.md`).
+!!! note "Videos to add"
+    A screen recording for each step below. See `docs/videos/README.md` for how to record and embed them.
 
 #### Step 1: Find the new part in the Parts list
 
 It appears there as soon as it is created.
-
-<video controls muted loop playsinline preload="metadata" width="100%">
-  <source src="../../videos/rule6-step1.mp4" type="video/mp4">
-</video>
 
 #### Step 2: Right-click the part and choose Assign material
 
 !!! tip
     If the part already has a material, the menu says **Edit material** instead. It opens the same dialog.
 
-<video controls muted loop playsinline preload="metadata" width="100%">
-  <source src="../../videos/rule6-step2.mp4" type="video/mp4">
-</video>
-
 #### Step 3: Pick the material from the library
 
 On the Library tab, search for 6061, pick **Aluminum - 6061**, then click the green check.
 
-<video controls muted loop playsinline preload="metadata" width="100%">
-  <source src="../../videos/rule6-step3.mp4" type="video/mp4">
-</video>
-
 #### Step 4: Check the mass in Mass properties
 
 Open **Mass properties** and click the part. It now shows a mass (0.046 lb here).
-
-<video controls muted loop playsinline preload="metadata" width="100%">
-  <source src="../../videos/rule6-step4.mp4" type="video/mp4">
-</video>
 
 ### Common mistakes
 
