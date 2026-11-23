@@ -1,9 +1,6 @@
 # Contributing
 
-This guide grows. If a rule is unclear, wrong, or missing, tell a design mentor or open a pull request.
-
-## Open items for mentors
-
+This guide will keep changing. If a rule is unclear or wrong, or something's missing, tell a design mentor or open a pull request.
 
 ## Adding a rule
 

@@ -1,13 +1,13 @@
 # 2. Getting Started
 
-Before you model anything, do three things: get into the team's Onshape, install Origin Cube and the FRC Design App, and add the helper tools you will use every day. This takes about 20 minutes.
+Before you model anything, do three things: get into the team's Onshape, install Origin Cube and the FRC Design App, and add the helper tools you'll use every day. This takes about 20 minutes.
 
 ## Step 1: Account and team access
 
 1. Ask a design mentor to invite you to the 2928 team in Onshape. Use the email address they send the invite to.
 2. Open the invitation email, click the link, and create your Onshape account (or sign in if you already have one). Use the education account so you get the full free plan.
 3. Open the Onshape home page and confirm you can see the team's documents, including the 2026 robot document.
-4. If you cannot see the team documents, stop and ask a mentor. Do not make a second account.
+4. If you can't see the team documents, stop and ask a mentor. Don't make a second account.
 
 The FRCDesign.org course has a [Course Setup section](https://frcdesign.org/learning-course/) covering account setup, performance tuning and the documents page for brand-new users.
 
@@ -17,14 +17,14 @@ Two tools are required for every 2928 designer.
 
 | Tool | What it is | What it is for |
 |---|---|---|
-| [Origin Cube](https://cad.onshape.com/documents/321c197a842fc5f1a29e6621/w/fc3cdd5ca7edcd93e02f13cc/e/c66db2b954da7f29d438195a) | A FeatureScript | Creates the shared origin every part studio starts from, and adds fastener hole size variables (tap, close fit, clearance, heat-set insert), belt and chain functions, and gear and sprocket diameter offsets. Rules 1 and 5. |
-| FRC Design App | An app from the Onshape App Store, formerly called MKCad | A searchable library of FRC off-the-shelf parts (motors, wheels, bearings, extrusions) you insert into part studios and assemblies. |
+| [Origin Cube](https://cad.onshape.com/documents/321c197a842fc5f1a29e6621/w/fc3cdd5ca7edcd93e02f13cc/e/c66db2b954da7f29d438195a) | A FeatureScript | Creates the shared origin every Part Studio starts from, and adds fastener hole size variables (tap, close fit, clearance, heat-set insert), belt and chain functions, and gear and sprocket diameter offsets. Rules 1 and 5. |
+| FRC Design App | An app from the Onshape App Store, formerly called MKCad | A searchable library of FRC off-the-shelf parts (motors, wheels, bearings, extrusions) you insert into Part Studios and assemblies. |
 
 ### Install a FeatureScript (Origin Cube and the rest)
 
-FeatureScripts only work inside Part Studios, not assemblies. You only need to add each one once. After that it appears in every part studio you open.
+FeatureScripts only work inside Part Studios, not assemblies. You only need to add each one once. After that it appears in every Part Studio you open.
 
-1. Open any document and open a Part Studio you are allowed to edit.
+1. Open any document and open a Part Studio you're allowed to edit.
 2. In the toolbar, click the custom features dropdown at the far right, then choose **Add custom features**.
 3. Paste the link to the FeatureScript's document into the search bar. For Origin Cube, use the link in the table above.
 4. Click the document when it appears. A list of the FeatureScripts inside it shows up.
@@ -32,21 +32,21 @@ FeatureScripts only work inside Part Studios, not assemblies. You only need to a
 6. Close the dialog. The tool now shows in the same dropdown.
 
 !!! tip
-    Press **S** in a Part Studio to open the shortcut toolbar, then add your favorite custom features there so they are one click away.
+    Press **S** in a Part Studio to open the shortcut toolbar, then add your favorite custom features there so they're one click away.
 
 The [FeatureScript help page on FRCDesign.org](https://frcdesign.org/resources/featurescript-help/) and [Onshape's custom feature help](https://cad.onshape.com/help/Content/customfeature.htm) cover the same steps with more detail.
 
 ### Install the FRC Design App
 
 1. In Onshape, open the App Store from your account or apps menu and search for **FRC Design App**.
-2. Add it to your account. It is free.
+2. Add it to your account. It's free.
 3. Open a Part Studio or Assembly. The app appears as a panel on the right side of the screen.
 
 If these steps look different on your screen, follow the current instructions in the Required Course Tools part of the [FRCDesign.org course setup](https://frcdesign.org/learning-course/). Tell a mentor so we can update this page.
 
 ## Step 3: Add the recommended FeatureScripts
 
-These are not required, but we use them constantly. Several come in bundles, so one install adds several tools. All are listed on [FRCDesign.org's FeatureScripts page](https://frcdesign.org/resources/featurescripts/).
+These aren't required, but we use them constantly. Several come in bundles, so one install adds several tools. All are listed on [FRCDesign.org's FeatureScripts page](https://frcdesign.org/resources/featurescripts/).
 
 | FeatureScript | What it does | Where to get it |
 |---|---|---|
@@ -60,14 +60,14 @@ These are not required, but we use them constantly. Several come in bundles, so 
 | 3D Printed Mass (Julia's) | Sets a printed part to a realistic mass from its material, infill and wall thickness. Used in Rule 6. | Julia's bundle, linked above |
 | Set Materials (Abhi's) | Sets materials and appearances for many parts at once. Used in Rule 6. | Abhi's Features & Configs bundle on FRCDesign.org's FeatureScripts page |
 
-Tube Converter can be slow, so put it at the end of the part studio's feature list.
+Tube Converter can be slow, so put it at the end of the Part Studio's feature list.
 
 ## First-time notes
 
 - **Check your branch before you edit.** The branch name shows in the Versions and history panel and at the top of the document. Never edit Main. See [Rule 2](rules/02-branching.md).
-- **Start every part studio with Origin Cube.** See [Rule 1](rules/01-one-origin.md).
-- **Look at the 2026 robot document first.** Copy its habits, not just its parts.
+- **Start every Part Studio with Origin Cube.** See [Rule 1](rules/01-one-origin.md).
+- **Look at the 2026 robot document first.** It's the best example of how we lay things out.
 - **Ask early.** If a sketch turns red or an assembly looks wrong, ask a teammate before you delete anything. Onshape keeps history, so most mistakes can be undone.
-- **Keep your browser light.** Large assemblies are heavy. Close other tabs, and use a recent Chrome or similar browser.
+- **Use a recent version of Chrome.** Big assemblies get slow, so close tabs you don't need.
 
 **Next:** start with [3. Design Guidelines](rules/index.md).

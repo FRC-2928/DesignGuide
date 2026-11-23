@@ -1,6 +1,6 @@
 # 3. 2928 Design Guidelines
 
-These rules are how every 2928 designer works in Onshape. Follow them on every document, and use the merge checklist below before any branch goes into Main.
+These are the rules we follow in every 2928 Onshape document. Before any branch gets merged into Main, go through the checklist at the bottom of this page.
 
 ## The rules
 
@@ -15,7 +15,7 @@ These rules are how every 2928 designer works in Onshape. Follow them on every d
 
 ## How each rule is written
 
-Every rule page has the same four parts, so you can find what you need fast:
+Every rule page is split into the same four parts:
 
 - **The rule:** one or two sentences you can remember.
 - **What it means:** the rule in plain words.

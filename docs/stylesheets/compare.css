@@ -1,0 +1,114 @@
+/* Before/after image slider. Markup (in a .md page):
+
+<div class="compare" markdown>
+![Before label](../images/before.png)
+![After label](../images/after.png)
+</div>
+
+Both images must be the same size and taken from the same camera view.
+The alt text of each image is used as its corner label. */
+
+.md-typeset .compare {
+  position: relative;
+  overflow: hidden;
+  line-height: 0;
+  margin: 1em 0;
+  border-radius: 0.2rem;
+  user-select: none;
+  touch-action: pan-y;
+  --pos: 50%;
+}
+
+.md-typeset .compare p {
+  margin: 0;
+}
+
+.md-typeset .compare img {
+  display: block;
+  width: 100%;
+  height: auto;
+  max-width: none;
+}
+
+/* The "before" image sits on top and is clipped to the left of the divider. */
+.md-typeset .compare img.compare-before {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  object-fit: cover;
+  clip-path: inset(0 calc(100% - var(--pos)) 0 0);
+}
+
+.md-typeset .compare .compare-line {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: var(--pos);
+  width: 2px;
+  transform: translateX(-1px);
+  background: #fff;
+  box-shadow: 0 0 4px rgba(0, 0, 0, 0.6);
+  pointer-events: none;
+}
+
+.md-typeset .compare .compare-handle {
+  position: absolute;
+  top: 50%;
+  left: var(--pos);
+  width: 2.2rem;
+  height: 2.2rem;
+  transform: translate(-50%, -50%);
+  border-radius: 50%;
+  background: #fff;
+  box-shadow: 0 0 6px rgba(0, 0, 0, 0.6);
+  pointer-events: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #333;
+  font-size: 0.9rem;
+  line-height: 1;
+}
+
+.md-typeset .compare .compare-handle::before {
+  content: "\25C0\00A0\25B6"; /* left and right arrows */
+  font-size: 0.55rem;
+}
+
+.md-typeset .compare .compare-label {
+  position: absolute;
+  top: 0.6rem;
+  padding: 0.3em 0.6em;
+  border-radius: 0.2rem;
+  background: rgba(0, 0, 0, 0.6);
+  color: #fff;
+  font-size: 0.7rem;
+  line-height: 1.2;
+  pointer-events: none;
+}
+
+.md-typeset .compare .compare-label-before {
+  left: 0.6rem;
+}
+
+.md-typeset .compare .compare-label-after {
+  right: 0.6rem;
+}
+
+/* An invisible range input covers the whole image, so dragging anywhere
+   (mouse, touch or arrow keys) moves the divider. */
+.md-typeset .compare input.compare-range {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  opacity: 0;
+  cursor: ew-resize;
+}
+
+.md-typeset .compare input.compare-range:focus-visible ~ .compare-handle {
+  outline: 3px solid var(--md-accent-fg-color);
+  outline-offset: 2px;
+}

@@ -1,10 +1,10 @@
 # Rule 6: Assign Real Materials Right Away
 
-**The rule:** As soon as you create a new part, assign it the real material it will be made from. Do not wait until the design is finished.
+**The rule:** As soon as you create a new part, assign it the real material it will be made from. Don't wait until the design is finished.
 
 ## What it means
 
-Every part in Onshape can have a **material**. The material gives the part a density, and Onshape multiplies density by the part's volume to get its mass. We want every part to carry the material it will really have on the robot, from the moment it exists.
+Every part in Onshape can have a **material**. The material gives the part a density, and Onshape multiplies density by the part's volume to get its mass. Every part should have the material it will actually be made of, starting as soon as you create it.
 
 ```mermaid
 flowchart LR
@@ -30,30 +30,28 @@ Parts you insert from the FRC Design Library already have their correct masses a
 ## Why
 
 - **Onshape ignores parts with no material.** A part without a material has no mass, so it adds nothing to the robot's weight or center of mass. A forgotten part makes the robot look lighter than it is. [Onshape's mass properties tool uses the density of the assigned material](https://cad.onshape.com/help/Content/massprops-ps.htm).
-- **We find weight problems early.** The robot has a weight limit in the game manual. If every part has a real material, the running total is trustworthy all season, and we can fix an overweight design while it is still easy.
+- **We find weight problems early.** The robot has a weight limit in the game manual. If every part has a real material, the running total is trustworthy all season, and we can fix an overweight design while it's still easy.
 - **Center of mass matters.** A robot with a high or off-center center of mass tips and drives differently.
-- **It is easy now and hard later.** Assigning a material takes seconds when you know what the part is. Doing 300 parts at the end means guessing, and some parts will get missed.
+- **It's easy now and hard later.** Assigning a material takes seconds when you know what the part is. Doing 300 parts at the end means guessing, and some parts will get missed.
 
 ## How
 
 1. **Make the part.** As soon as an extrude or other feature creates a new part, move on to the next step before you do anything else.
 2. **Right-click the part and choose Assign material.** Right-click it in the Parts list or in the graphics area. Select several parts first if they share a material.
 3. **Pick from the library.** On the Library tab, choose a material library (the Onshape Material Library shows by default), then choose the material. Each material shows its density. Click the checkmark. For most machined parts, choose 6061 aluminum.
-4. **For 3D-printed parts, account for infill.** A printed part is not solid, so volume times plastic density overestimates the mass. Do one of these:
+4. **For 3D-printed parts, account for infill.** A printed part isn't solid, so volume times plastic density overestimates the mass. Do one of these:
     - Use the **3D Printed Mass** FeatureScript (see [Getting Started](../getting-started.md)). It adjusts a printed part to a realistic mass from its material, infill and wall thickness.
     - Or take the mass from the slicer, open the **Mass properties** tool, select the part, check **Override**, and type the mass.
 5. **Do it in bulk when you can.** Select a group of parts and assign once, or use the **Set Materials** FeatureScript to set materials and appearances for many parts at once.
 6. **Check it.** Click the **Mass properties** icon in the bottom-right of the Part Studio or Assembly, select the **Part** tab, and click your parts. Every part should show a mass. If the tool shows nothing for a part, it has no material. In the assembly, check the robot's total mass and center of mass.
-7. **Leave FRC Design Library parts alone.** They arrive with correct masses. Do not reassign them.
+7. **Leave FRC Design Library parts alone.** They arrive with correct masses. Don't reassign them.
 
 ### Walkthrough (Gearbox Plate example)
 
-!!! note "Videos to add"
-    A screen recording for each step below. See `docs/videos/README.md` for how to record and embed them.
 
 #### Step 1: Find the new part in the Parts list
 
-It appears there as soon as it is created.
+It appears there as soon as it's created.
 
 #### Step 2: Right-click the part and choose Assign material
 

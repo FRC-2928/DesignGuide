@@ -37,7 +37,7 @@ nav:
       - "Rule 1: One Origin": rules/01-one-origin.md
       - "Rule 2: Never Work in Main": rules/02-branching.md
       - "Rule 3: Master Sketches": rules/03-master-sketches.md
-      - "Rule 4: High Fidelity Blocks": rules/04-block-cad.md
+      - "Rule 4: High Fidelity Block CAD": rules/04-block-cad.md
       - "Rule 5: Functions, Not Typed Dimensions": rules/05-smart-dimensions.md
       - "Rule 6: Real Materials": rules/06-materials.md
   - Contributing: contributing.md
@@ -59,3 +59,9 @@ markdown_extensions:
   - tables
   - toc:
       permalink: true
+
+extra_css:
+  - stylesheets/compare.css
+
+extra_javascript:
+  - javascripts/compare.js

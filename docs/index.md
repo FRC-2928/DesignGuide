@@ -1,12 +1,12 @@
 # 1. Introduction
 
-Onshape is the browser-based CAD program where all of Team 2928's robot design lives. This guide explains how we use it so dozens of people can work on one robot at the same time without breaking each other's work.
+Onshape is the browser-based CAD program where all of Team 2928's robot design lives. This guide covers how we use it, so a lot of people can work on the same robot without stepping on each other.
 
 ## What Onshape is
 
-Onshape runs in a web browser, so there is nothing to install and nothing to email. Everyone edits the same design live, and every change is saved in a history you can go back to. [Onshape provides free access for FRC and FTC teams](https://www.onshape.com/en/education/first-robotics) through its education plan.
+Onshape runs in a web browser, so there's nothing to install and nothing to email. Everyone edits the same design live, and every change is saved in a history you can go back to. [Onshape provides free access for FRC and FTC teams](https://www.onshape.com/en/education/first-robotics) through its education plan.
 
-A few words you will see all through this guide:
+A few words you'll see all through this guide:
 
 | Term | What it means |
 |---|---|
@@ -14,18 +14,18 @@ A few words you will see all through this guide:
 | Part Studio | A tab where you model parts (sketches, extrudes, holes). |
 | Assembly | A tab where you position parts relative to each other and add mates. |
 | Workspace (branch) | A working copy of a document. The default one is called Main. |
-| Version | A saved snapshot of a workspace that cannot be edited. |
+| Version | A saved snapshot of a workspace that can't be edited. |
 | FeatureScript | A small program that adds a custom tool to Onshape, such as Origin Cube. |
 
 ## Why 2928 has design rules
 
-A robot is hundreds of parts designed by many people in a few weeks. Without shared habits, parts end up in different positions, sketches get duplicated, and one person's edit breaks someone else's assembly. The [rules in section 3](rules/index.md) are the habits that prevent that. Each rule says what to do, why we do it, and exactly how.
+A robot is hundreds of parts designed by many people in a few weeks. Without shared habits, parts end up in different positions, sketches get duplicated, and one person's edit breaks someone else's assembly. The [rules in section 3](rules/index.md) are how we avoid that.
 
 We keep them short on purpose. If a rule is unclear or something is missing, tell a design mentor so we can improve it.
 
 ## Learning resources
 
-Start with the ones marked first. You do not need to read everything before you begin.
+You don't need to read all of these before you start. If you're new, begin with the FRCDesign.org Learning Course.
 
 | Resource | What it gives you |
 |---|---|
@@ -40,6 +40,6 @@ Start with the ones marked first. You do not need to read everything before you 
 
 ## Our 2026 robot as an example
 
-The [2026 robot document](https://cad.onshape.com/documents/c41e5b5e0489e0e9413cd997/w/2ffbdb1c9cd280eb809d5198/e/99871744b623f46b84ba0ae9) is the best example of everything in this guide. Open it next to each rule and look at how the sketches, part studios and assemblies are laid out.
+The [2026 robot document](https://cad.onshape.com/documents/c41e5b5e0489e0e9413cd997/w/2ffbdb1c9cd280eb809d5198/e/99871744b623f46b84ba0ae9) is the best example of everything in this guide. Open it next to each rule and look at how the sketches, Part Studios and assemblies are laid out.
 
 **Next:** [2. Getting Started](getting-started.md)
