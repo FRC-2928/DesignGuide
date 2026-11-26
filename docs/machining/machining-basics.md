@@ -47,14 +47,9 @@ Reading a dial caliper takes two numbers. The bar scale shows tenths of an inch 
 
 ### Scribes and layout fluid
 
-**Layout** means drawing the part's lines and hole locations onto the stock before you cut. On metal, a pencil line is too thick and rubs off, so we **scribe, a hardened steel point that scratches a thin line.
+**Layout** means drawing the part's lines and hole locations onto the stock before you cut. On metal, a pencil line is too thick and rubs off, so we scribe a thin line using a sharp metal. Scribe a plus into the stock to mark a hole center
 
-1. Clean the stock. Paint a thin coat of **layout fluid** (blue or red dye, often called Dykem) where you'll mark. A permanent marker works for rough layout.
-2. Let it dry for a minute.
-3. Measure from a finished, square edge. Use a combination square or height gauge to hold the scribe at the right distance, and pull the scribe toward you in one pass.
-4. Where two lines cross is where a hole goes.
-
-The scratch shows bright silver through the dye, so it's easy to see and accurate to a few thousandths.
+To make scribes easier to use, you can first paint the area of the part with sharpie, a paint pen, or dykem.
 
 ### Center punch
 
@@ -107,26 +102,18 @@ Put a piece of scrap wood or aluminum under anything you drill through, so the b
 
 ## Reading a drawing
 
-A **drawing** is a 2D picture of a part with all the sizes on it. Mentors and designers make drawings from Onshape so you don't have to guess.
+A **drawing** is a 2D picture of a part with all the sizes on it. Mentors and designers make drawings from Onshape or by hand so you don't have to reference the 3d CAD. Drawings are typically only made for shafts or standoffs cut on the lathe. 
 
 - **Views.** Most drawings show the front, top and side of the part. Each view is the part seen from one direction. Find the same feature in two views to understand its shape.
 - **Dimensions.** Every size you need is written on the drawing. Don't measure the printed picture with a ruler. If a size is missing, ask.
-- **Units.** Check the title block (the box in the corner). Most FRC drawings are in inches, but a part cut in the wrong units is scrap, so always check.
 - **Tolerances.** A tolerance is how far off you're allowed to be. "0.500 ± 0.005" means anything from 0.495" to 0.505" is fine. The title block often has a general tolerance for sizes without their own.
 - **Hole callouts.** A note like "4X Ø0.201 THRU, 1/4-20 TAP" means four holes, drilled 0.201" all the way through, then tapped for a 1/4-20 screw. "4X" means "this happens 4 times."
 - **Material and quantity.** Usually in the title block. Check you have the right stock before you cut.
 
-!!! question "2928: fill in"
-    Where do students find drawings for the current robot (printed binder, Onshape link, a shared folder)? Who makes them, and what is our standard general tolerance?
-
 ## Common mistakes
-
-- Measuring with the caliper tips instead of deep in the jaws.
 - Skipping the center punch and getting a hole that "walked" off the mark.
 - Holding a part by hand on the drill press "just for one hole."
-- Running a big drill at the same speed as a small one.
 - Wearing gloves near a spinning tool.
-- Cutting from the drawing without checking whether it's in inches or millimeters.
 
 ## Learn more
 
