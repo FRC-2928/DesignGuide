@@ -38,4 +38,4 @@ The reviewer and the author go through this together.
 
 ## Adding a new rule
 
-This list will grow. See [Contributing](../contributing.md).
+This list will grow. See [Contributing](../../general/contributing.md).

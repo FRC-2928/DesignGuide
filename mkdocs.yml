@@ -1,5 +1,5 @@
-site_name: FRC 2928 Onshape Design Guide
-site_description: How Team 2928 designs the robot in Onshape
+site_name: FRC 2928 Robot Guides
+site_description: How Team 2928 designs, wires, machines and builds the robot
 site_url: https://frc-2928.github.io/DesignGuide/
 repo_url: https://github.com/FRC-2928/DesignGuide
 repo_name: FRC-2928/DesignGuide
@@ -8,7 +8,10 @@ edit_uri: edit/main/docs/
 theme:
   name: material
   features:
+    - navigation.tabs
+    - navigation.tabs.sticky
     - navigation.sections
+    - navigation.indexes
     - navigation.top
     - navigation.footer
     - navigation.tracking
@@ -30,17 +33,64 @@ theme:
         name: Dark mode
 
 nav:
-  - 1. Introduction: index.md
-  - 2. Getting Started: getting-started.md
-  - 3. Design Guidelines:
-      - Overview and merge checklist: rules/index.md
-      - "Rule 1: One Origin": rules/01-one-origin.md
-      - "Rule 2: Never Work in Main": rules/02-branching.md
-      - "Rule 3: Master Sketches": rules/03-master-sketches.md
-      - "Rule 4: High Fidelity Block CAD": rules/04-block-cad.md
-      - "Rule 5: Functions, Not Typed Dimensions": rules/05-smart-dimensions.md
-      - "Rule 6: Real Materials": rules/06-materials.md
-  - Contributing: contributing.md
+  - Home: index.md
+  - CAD:
+      - cad/index.md
+      - 2. Getting Started: cad/getting-started.md
+      - 3. Design Guidelines:
+          - cad/rules/index.md
+          - "Rule 1: One Origin": cad/rules/01-one-origin.md
+          - "Rule 2: Never Work in Main": cad/rules/02-branching.md
+          - "Rule 3: Master Sketches": cad/rules/03-master-sketches.md
+          - "Rule 4: High Fidelity Block CAD": cad/rules/04-block-cad.md
+          - "Rule 5: Functions, Not Typed Dimensions": cad/rules/05-smart-dimensions.md
+          - "Rule 6: Real Materials": cad/rules/06-materials.md
+  - Electrical:
+      - electrical/index.md
+      - Basics:
+          - electrical/electronics-basics.md
+          - electrical/control-system.md
+      - Wiring:
+          - electrical/crimping.md
+          - electrical/can-crimping.md
+          - electrical/strain-relief.md
+          - electrical/routing.md
+          - electrical/chafe-protection.md
+  - Machining:
+      - machining/index.md
+      - Basics:
+          - machining/machining-basics.md
+          - machining/materials.md
+      - Hand Machines:
+          - machining/drill-press.md
+          - machining/band-saw.md
+          - machining/chop-saw.md
+          - machining/tapping.md
+          - machining/grinding-wheel.md
+          - machining/deburring.md
+      - Lathe:
+          - machining/lathe.md
+      - CNC:
+          - machining/cam-fusion.md
+          - machining/laguna-cnc.md
+  - Assembly:
+      - assembly/index.md
+      - Tools:
+          - assembly/tools.md
+          - assembly/torque-wrench.md
+          - assembly/torque-striping.md
+      - Fasteners:
+          - assembly/cross-threading.md
+          - assembly/stripped-screws.md
+      - Mechanisms:
+          - assembly/bearings.md
+          - assembly/chain.md
+          - assembly/swerve-lubrication.md
+  - General:
+      - general/safety.md
+      - general/glossary.md
+      - general/contributing.md
+      - general/image-credits.md
 
 markdown_extensions:
   - admonition
@@ -55,6 +105,9 @@ markdown_extensions:
   - pymdownx.tabbed:
       alternate_style: true
   - attr_list
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
   - md_in_html
   - tables
   - toc:
@@ -62,6 +115,7 @@ markdown_extensions:
 
 extra_css:
   - stylesheets/compare.css
+  - stylesheets/figures.css
 
 extra_javascript:
   - javascripts/compare.js

@@ -50,7 +50,6 @@ That puts each standard plane in a fixed place on the robot:
 
     Onshape doesn't let you relabel the cube, so we accept the mismatch to keep the CAD in the same frame as the robot code. Go by the axes, not the button names.
 
-
 ## Why
 
 - **Parts line up by themselves.** Two people who never talked can model an intake and an elevator, and they meet in the right place in the assembly.

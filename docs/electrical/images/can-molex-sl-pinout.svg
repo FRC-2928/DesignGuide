@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 300" width="640" height="300" font-family="Helvetica, Arial, sans-serif">
+  <title>Molex SL CAN pinout: yellow wire in the cavity marked with the arrow (pin 1), green wire in pin 2</title>
+  <rect x="0" y="0" width="640" height="300" rx="12" fill="#f7f7f5"/>
+
+  <!-- wires -->
+  <rect x="20" y="106" width="150" height="20" rx="10" fill="#f2c200" stroke="#9a7c00" stroke-width="1.5"/>
+  <rect x="20" y="144" width="150" height="20" rx="10" fill="#1f9d48" stroke="#0f6a2e" stroke-width="1.5"/>
+
+  <!-- housing -->
+  <rect x="160" y="84" width="230" height="102" rx="8" fill="#3b3b3b"/>
+  <rect x="160" y="84" width="40" height="102" rx="6" fill="#2a2a2a"/>
+  <!-- cavities -->
+  <rect x="330" y="104" width="44" height="24" rx="3" fill="#151515"/>
+  <rect x="330" y="142" width="44" height="24" rx="3" fill="#151515"/>
+  <!-- arrow molded on housing pointing at pin 1 -->
+  <polygon points="236,104 236,128 290,116" fill="#e8e8e8"/>
+  <text x="222" y="160" font-size="14" fill="#cfcfcf">MX-2</text>
+
+  <!-- labels -->
+  <line x1="390" y1="116" x2="430" y2="116" stroke="#444" stroke-width="1.5"/>
+  <line x1="390" y1="154" x2="430" y2="154" stroke="#444" stroke-width="1.5"/>
+  <text x="438" y="112" font-size="17" font-weight="bold" fill="#222">Pin 1 (arrow)</text>
+  <text x="438" y="131" font-size="15" fill="#222">Yellow = CAN High</text>
+  <text x="438" y="160" font-size="17" font-weight="bold" fill="#222">Pin 2</text>
+  <text x="438" y="179" font-size="15" fill="#222">Green = CAN Low</text>
+
+  <text x="320" y="40" font-size="20" font-weight="bold" fill="#222" text-anchor="middle">Yellow always goes on the arrow</text>
+  <text x="320" y="240" font-size="14" fill="#444" text-anchor="middle">Same on both halves (plug and receptacle). Look for the small triangle</text>
+  <text x="320" y="260" font-size="14" fill="#444" text-anchor="middle">molded into the housing next to one cavity. That cavity is pin 1.</text>
+</svg>

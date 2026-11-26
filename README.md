@@ -1,6 +1,6 @@
-# FRC 2928 Onshape Design Guide
+# FRC 2928 Robot Guides
 
-How Team 2928 designs the robot in Onshape: getting started, plus the numbered design rules every designer follows.
+How Team 2928 designs, wires, machines and builds the robot. One site with a tab for each area: CAD, Electrical, Machining and Assembly.
 
 Read it at **https://frc-2928.github.io/DesignGuide/**
 
@@ -16,15 +16,15 @@ To preview on your computer:
 
 ```
 pip install -r requirements.txt
-mkdocs serve
+python -m mkdocs serve
 ```
 
 then open http://127.0.0.1:8000.
 
 ## Adding videos
 
-Put screen recordings in `docs/videos/` and see `docs/videos/README.md` for the snippet that embeds them.
+Put screen recordings in `docs/cad/videos/` and see `docs/cad/videos/README.md` for the snippet that embeds them.
 
 ## Adding a rule
 
-Copy an existing file in `docs/rules/`, keep the same four parts (The rule, What it means, Why, How), and add it to `nav:` in `mkdocs.yml` and to the table in `docs/rules/index.md`.
+Copy an existing file in `docs/cad/rules/`, keep the same four parts (The rule, What it means, Why, How), and add it to `nav:` in `mkdocs.yml` and to the table in `docs/cad/rules/index.md`.

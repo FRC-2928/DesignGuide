@@ -48,7 +48,6 @@ Parts you insert from the FRC Design Library already have their correct masses a
 
 ### Walkthrough (Gearbox Plate example)
 
-
 #### Step 1: Find the new part in the Parts list
 
 It appears there as soon as it's created.

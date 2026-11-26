@@ -37,7 +37,6 @@ gitGraph
 - A mentor or subsystem lead looks over the changes before they're merged.
 - Main always holds the last reviewed state of the document.
 
-
 ## Why
 
 - **Other documents stay stable.** The robot assembly pulls parts from this document. If Main changed every time someone edited it, the assembly would keep shifting for everyone using it. Since Main only changes when we merge, everyone gets the update at once, when we're ready for it.
@@ -105,7 +104,6 @@ Use the description field for the details.
 
 !!! note "Screenshot to add"
     The merge window with Compare with base visible.
-
 
 ### Common mistakes
 

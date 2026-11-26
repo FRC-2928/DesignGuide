@@ -1,0 +1,19 @@
+/* Tall step diagrams: float beside the steps on wide screens, full width on phones. */
+.md-typeset figure.side-figure {
+  float: right;
+  width: 340px;
+  max-width: 45%;
+  margin: 0 0 1em 1.5em;
+}
+.md-typeset figure.side-figure img {
+  width: 100%;
+  height: auto;
+}
+@media screen and (max-width: 44.984375em) {
+  .md-typeset figure.side-figure {
+    float: none;
+    width: 100%;
+    max-width: 26rem;
+    margin: 1em auto;
+  }
+}

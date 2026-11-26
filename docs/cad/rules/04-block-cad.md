@@ -34,7 +34,6 @@ Here's the 2026 superstructure going from blocks to detailed parts. Drag the sli
 ![Detailed CAD](../images/rule4-superstructure-detailed.png)
 </div>
 
-
 ## Why
 
 - **Solve "how do we build this" early.** Questions like "tube or plate?" and "where does the gearbox go?" get answered before anyone spends time on detailed parts.
@@ -60,7 +59,6 @@ Here's the 2026 superstructure going from blocks to detailed parts. Drag the sli
 9. **Derive only what you need.** Bring in the blocks your subsystem needs plus neighbors for checking interference. Give the derived blocks a distinct color, keep their names, and turn visibility on and off often.
 10. **Model the detailed parts.** Keep parts inside the block envelope and extrude up to a face instead of typing distances.
 11. **Adjust as you go.** Use the season's goals and the team's time to decide how much detail to add. It's fine to bend the process later in the season.
-
 
 ### Common mistakes
 

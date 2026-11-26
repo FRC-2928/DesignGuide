@@ -51,7 +51,6 @@ Values for the screws we use most, so you can sanity check a hole. You never typ
 
 See them in use in the [Origin Cube example document](https://cad.onshape.com/documents/321c197a842fc5f1a29e6621/w/fc3cdd5ca7edcd93e02f13cc/e/5abed6fb539ec4f242fdc565).
 
-
 ## Why
 
 - **Anyone can read the intent.** Seeing a function for a #25 chain sprocket tells a reader what the circle is meant to represent. A typed number makes them guess, or measure.
